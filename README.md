@@ -99,8 +99,7 @@ The parameters you can give are as follows.
 |--config 	| False					| Whether to give config file		|
 |--config_path	| '../config/democonfig.conf'		| Path of config file			|
 |--is_implicit	| False					| Whether implicit data are given	|
-|--alpha	| 0.001					| Coefficient of confidence 		|
-|		|					|    level in implicit feedback		|
+|--alpha	| 0.001					| Coefficient of confidence level in implicit feedback|
 |--is_social	| False					| Whether social links are used		|
 |--lr 		| 0.05					| Learning rate				|
 |--lamb 	| 0.3					| Regularization parameters		|
