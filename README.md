@@ -93,31 +93,30 @@ You can optionally give parameters with two approaches.
 	```
 
 The parameters you can give are as follows.
-	argument_type	|	default argument_value		|	details
-	--------------------------------------------------------------------------
-	--dataset 		| filmtrust						| Name of dataset
-	--method 		| MF_exp						| Name of method (*1)
-	--data_path		| '../data/'					| Where datasets are
-	--input_path	| '../data/<dataset>/input/'	| Where inputs are
-	--result_path	| '../results'					| Where intermediate results are
-	--side_paths	| [<input_path>/link.tsv]		| List of paths of side info (*2)
-	--entity_types	| [['u', 'u']]					| List of types of side info (*3)
-	--config 		| False							| Whether to give config file
-	--config_path	| '../config/democonfig.conf'	| Path of config file
-	--is_implicit	| False							| Whether implicit data are given
-	--alpha			| 0.001							| Coefficient of confidence 
-					|								|    level in implicit feedback
-	--is_social		| False							| Whether social links are used
-	--lr 			| 0.05							| Learning rate
-	--lamb 			| 0.3							| Regularization parameters
-	--dim 			| 5								| Dimension of vectors
-	--is_sample		| False							| Wheter to sample seed users (*4) 
-	--num_seed		| 300							| # sampled seed users
-	--c 			| 0.2							| Probability of restart
-	--beta			| 0.4							| Probability of walk in RWR_bias
-	--gamma			| 0.3							| Probability of restart in RWR_bias
-	--delta			| 1.0							| Weight of additional links 
-					|								|    in RWR_side
+	| argument_type	|	default argument_value		|	details       			|
+	|---------------| --------------------------------------| ------------------- 			|
+	|--dataset 	| filmtrust				| Name of dataset			|
+	|--method 	| MF_exp				| Name of method (*1)			|
+	|--data_path	| '../data/'				| Where datasets are			|
+	|--input_path	| '../data/<dataset>/input/'		| Where inputs are			|
+	|--result_path	| '../results'				| Where intermediate results are	|
+	|--side_paths	| [<input_path>/link.tsv]		| List of paths of side info (*2)	|
+	|--entity_types	| [['u', 'u']]				| List of types of side info (*3)	|
+	|--config 	| False					| Whether to give config file		|
+	|--config_path	| '../config/democonfig.conf'		| Path of config file			|
+	|--is_implicit	| False					| Whether implicit data are given	|
+	|--alpha	| 0.001					| Coefficient of confidence 		|
+	|		|					|    level in implicit feedback		|
+	|--is_social	| False					| Whether social links are used		|
+	|--lr 		| 0.05					| Learning rate				|
+	|--lamb 	| 0.3					| Regularization parameters		|
+	|--dim 		| 5					| Dimension of vectors			|
+	|--is_sample	| False					| Wheter to sample seed users (*4) 	|
+	|--num_seed	| 300					| # sampled seed users			|
+	|--c 		| 0.2					| Probability of restart		|
+	|--beta		| 0.4					| Probability of walk in RWR_bias	|
+	|--gamma	| 0.3					| Probability of restart in RWR_bias	|
+	|--delta	| 1.0					| Weight of additional links in RWR_side|    
 
 (*1): Name of methods can be one of the followings.
 	: split5folds, MF_exp, MF_imp, MF_bias, MF_side, RWR_exp, RWR_imp, RWR_bias, RWR_side.
