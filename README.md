@@ -20,7 +20,7 @@
 - Program name: MFRWR
 - Version: 1.0
 - Last updated: 28 Aug 2017
-- Main contack: Haekyu Park (hkpark627@snu.ac.kr)
+- Main contact: Haekyu Park (hkpark627@snu.ac.kr)
 
 ## 2. Overview
 
