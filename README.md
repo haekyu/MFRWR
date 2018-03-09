@@ -1,11 +1,9 @@
-=====================================================
-Readme of mfrwr codes (v1.0)
-=====================================================
+
+# Readme of mfrwr codes (v1.0)
 
 
-=====================================================
-Contents
-=====================================================
+## Contents
+
 1. Basic information
 2. Overview
 3. Requirements
@@ -17,9 +15,9 @@ Contents
 6. Demo example
 
 
-=====================================================
-1. Basic information
-=====================================================
+
+## 1. Basic information
+
 - Authors: Haekyu Park, Jinhong Jung, and U Kang
 - Program name: MFRWR
 - Version: 1.0
@@ -27,9 +25,9 @@ Contents
 - Main contack: Haekyu Park (hkpark627@snu.ac.kr)
 
 
-=====================================================
-2. Overview
-=====================================================
+
+## 2. Overview
+
 This package is a set of implementaions of recommender systems based on matrix factorization and random walk with restart.
 These methods are compared in each recommendation scenarios in the following paper: A comparative study of matrix factorization and random walk with restart in recommender system. (https://datalab.snu.ac.kr/mfrwr/resources/mfrwr.pdf)
 We suggest 4 matrix factorization methods and 4 random walk with restart methods for the following cases:
@@ -39,24 +37,22 @@ We suggest 4 matrix factorization methods and 4 random walk with restart methods
 	- When side information is used
 
 
-=====================================================
-3. Requirements
-=====================================================
+
+## 3. Requirements
+
 - python 3.*
 - numpy
 - pandas
 - scipy
 We recommend you to use Anaconda (https://www.continuum.io/downloads).
 
-=====================================================
-4. How to install
-=====================================================
+
+## 4. How to install
 You can download this code package at the project hompage. (https://datalab.snu.ac.kr/mfrwr)
 
 
-=====================================================
-5. How to use
-=====================================================
+## 5. How to use
+
 1) Input and output
 	- Input
 		: Ratings and side information are able to be given as input.
@@ -149,9 +145,8 @@ The parameters you can give are as follows.
 	: Sampling options are given because the methods take too much time if many users are included.
 
 
-=====================================================
-6. Demo example
-=====================================================
+
+## 6. Demo example
 You can run MF_exp with filmtrust dataset.
 Please run demo.sh by typing './demo.sh'.
 
