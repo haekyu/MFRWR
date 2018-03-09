@@ -94,7 +94,7 @@ You can optionally give parameters with two approaches.
 
 The parameters you can give are as follows.
 | argument_type	|	default argument_value		|	details       			|
-|---------------| --------------------------------------| ------------------- 			|
+|---| ---| ---|
 |--dataset 	| filmtrust				| Name of dataset			|
 |--method 	| MF_exp				| Name of method (*1)			|
 |--data_path	| '../data/'				| Where datasets are			|
