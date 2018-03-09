@@ -84,13 +84,13 @@ You can optionally give parameters with two approaches.
 		- All parameters should be separated with '\n'.
 		- Argument type and its values for each parameters should be separated with ';'.
 	For example, a config file to run matrix factorization is as follows.
-	----------------------------------------
+	```
 	method;MF_exp
 	dataset;filmtrust
 	lr;0.05
 	lamb;0.3
 	dim;5
-	----------------------------------------
+	```
 
 The parameters you can give are as follows.
 	argument_type	|	default argument_value		|	details
