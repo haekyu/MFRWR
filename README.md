@@ -15,7 +15,7 @@
 
 ## 1. Basic information
 
-- Authors: Haekyu Park, Jinhong Jung, and U Kang
+- Authors: [Haekyu Park](https://haekyu.github.io), [Jinhong Jung](https://datalab.snu.ac.kr/~jinhong/), and [U Kang](https://datalab.snu.ac.kr/~ukang/)
 - Program name: MFRWR
 - Version: 1.0
 - Last updated: 28 Aug 2017
