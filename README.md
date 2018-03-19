@@ -7,12 +7,11 @@
 1. Basic information
 2. Overview
 3. Requirements
-4. How to install
-5. How to use
+4. How to use
 	1) Input and output
 	2) How to run
 	3) How to give parameters
-6. Demo example
+5. Demo example
 
 ## 1. Basic information
 
@@ -40,11 +39,8 @@ We suggest 4 matrix factorization methods and 4 random walk with restart methods
 - scipy
 - We recommend you to use [Anaconda](https://www.continuum.io/downloads).
 
-## 4. How to install
-You can download this code package at the [project hompage](https://datalab.snu.ac.kr/mfrwr).
 
-
-## 5. How to use
+## 4. How to use
 1) Input and output
 - Input
     - Ratings and side information are able to be given as input.
@@ -144,6 +140,6 @@ The parameters you can give are as follows.
 
 
 
-## 6. Demo example
+## 5. Demo example
 You can run MF_exp with filmtrust dataset.
 Please run demo.sh by typing `./demo.sh`.
